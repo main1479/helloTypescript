@@ -9,6 +9,30 @@
 		<div class="wrapper">
 			<h1>Finance Logger</h1>
 
+			<form class="new-item-form">
+				<div class="field__grid">
+					<div class="field">
+						<label for="type">Type:</label>
+						<select id="type" name="type">
+							<option value="invoice">Invoice</option>
+							<option value="payment">Payment</option>
+						</select>
+					</div>
+					<div class="field">
+						<label for="client">To / From:</label>
+						<input type="text" id="client" name="client" />
+					</div>
+					<div class="field">
+						<label for="details">Details:</label>
+						<input type="text" id="details" name="details" />
+					</div>
+					<div class="field">
+						<label for="amount">Amount (£):</label>
+						<input type="number" id="amount" name="amount" />
+					</div>
+				</div>
+				<button>Add</button>
+			</form>
 			<!-- output list -->
 			<ul class="item-list">
 				<!-- <li>
@@ -16,35 +40,9 @@
 					<p>${details}</p>
 				</li> -->
 			</ul>
+
+			<p class="copyright">Built with TypeScript by Mainul Islam</p>
 		</div>
-
-		<form class="new-item-form">
-			<div class="field__grid">
-				<div class="field">
-					<label for="type">Type:</label>
-					<select id="type" name="type">
-						<option value="invoice">Invoice</option>
-						<option value="payment">Payment</option>
-					</select>
-				</div>
-				<div class="field">
-					<label for="client">To / From:</label>
-					<input type="text" id="client" name="client" />
-				</div>
-				<div class="field">
-					<label for="details">Details:</label>
-					<input type="text" id="details" name="details" />
-				</div>
-				<div class="field">
-					<label for="amount">Amount (£):</label>
-					<input type="number" id="amount" name="amount" />
-				</div>
-			</div>
-			<button>Add</button>
-		</form>
-
-		<p class="copyright">Built with TypeScript by Mainul Islam</p>
-
 		<script src="./src/index.ts" type="module"></script>
 	</body>
 </html>
