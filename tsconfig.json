@@ -2,8 +2,7 @@
 	"compilerOptions": {
 		"target": "es5",
 		"useDefineForClassFields": true,
-		"module": "es5",
-		// "lib": ["ESNext", "DOM", "dom.iterable"],
+		"module": "es2015",
 		"moduleResolution": "Node",
 		"strict": true,
 		"sourceMap": true,
