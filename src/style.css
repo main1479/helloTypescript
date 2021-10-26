@@ -19,17 +19,18 @@ ul {
 	list-style-type: none;
 }
 li {
-	padding: 6px 10px;
-	border: 1px solid #eee;
+	padding: 10px 20px;
+	background: #2f324d;
 	margin: 10px auto;
+	border-radius: 10px;
 }
 li h4 {
-	color: #ff0aa7;
+	color: #f7f7f7;
 	margin: 0;
 	text-transform: capitalize;
 }
 li p {
-	color: #333;
+	color: #71748d;
 	margin: 8px 0 0;
 }
 form {
